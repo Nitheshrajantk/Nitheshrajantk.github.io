@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithesh's Webpage</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="Topnav">
+        <a href="home.html" class="active">Home</a>
+        <a href="recentworks.html" >Recent Works</a>
+        <a href="aboutme.html" >About Me</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" class="active" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>  
+    </div>
+    <div class="card" >
+      <img src="nithesh.jpg" alt="Nithesh" style="width:50%">
+      <h1>Nithesh Rajan T K</h1>
+      <p class="title">Entreupreneur</p>
+      <p>Foss Freaks</p>
+      <div style="margin: 24px 0;">
+        <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>  
+        <a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a>  
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> 
+      </div>
+      <p href="contact.html"><button>Contact</button></p>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("Topnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
